@@ -4,4 +4,4 @@ from django.db import models
 class TodoModel(models.Model):
     title = models.CharField(max_length=100)
     completed = models.BooleanField(default=False)
-    order models.PositiveSmallIntegerField(null=True, blank=True)
+    order = models.PositiveSmallIntegerField(null=True, blank=True)
